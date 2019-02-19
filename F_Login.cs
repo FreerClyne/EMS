@@ -67,6 +67,5 @@ namespace EMS
                 Application.Exit();
             }
         }
-
     }
 }

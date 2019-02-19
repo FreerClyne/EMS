@@ -45,9 +45,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(387, 200);
+            this.label1.Location = new System.Drawing.Point(774, 385);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 19);
+            this.label1.Size = new System.Drawing.Size(93, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "用户名";
             // 
@@ -56,24 +57,27 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(387, 245);
+            this.label2.Location = new System.Drawing.Point(774, 471);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 19);
+            this.label2.Size = new System.Drawing.Size(83, 35);
             this.label2.TabIndex = 1;
             this.label2.Text = "密  码";
             // 
             // textName
             // 
-            this.textName.Location = new System.Drawing.Point(452, 201);
+            this.textName.Location = new System.Drawing.Point(904, 387);
+            this.textName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textName.Name = "textName";
-            this.textName.Size = new System.Drawing.Size(115, 20);
+            this.textName.Size = new System.Drawing.Size(226, 31);
             this.textName.TabIndex = 2;
             // 
             // textPwd
             // 
-            this.textPwd.Location = new System.Drawing.Point(452, 246);
+            this.textPwd.Location = new System.Drawing.Point(904, 473);
+            this.textPwd.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textPwd.Name = "textPwd";
-            this.textPwd.Size = new System.Drawing.Size(115, 20);
+            this.textPwd.Size = new System.Drawing.Size(226, 31);
             this.textPwd.TabIndex = 3;
             // 
             // butLogin
@@ -84,9 +88,10 @@
             this.butLogin.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.butLogin.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butLogin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.butLogin.Location = new System.Drawing.Point(391, 292);
+            this.butLogin.Location = new System.Drawing.Point(782, 562);
+            this.butLogin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.butLogin.Name = "butLogin";
-            this.butLogin.Size = new System.Drawing.Size(75, 23);
+            this.butLogin.Size = new System.Drawing.Size(150, 44);
             this.butLogin.TabIndex = 4;
             this.butLogin.Text = "登录";
             this.butLogin.UseVisualStyleBackColor = false;
@@ -95,9 +100,10 @@
             // butClose
             // 
             this.butClose.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butClose.Location = new System.Drawing.Point(492, 292);
+            this.butClose.Location = new System.Drawing.Point(984, 562);
+            this.butClose.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.butClose.Name = "butClose";
-            this.butClose.Size = new System.Drawing.Size(75, 23);
+            this.butClose.Size = new System.Drawing.Size(150, 44);
             this.butClose.TabIndex = 5;
             this.butClose.Text = "取消";
             this.butClose.UseVisualStyleBackColor = true;
@@ -109,9 +115,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(185, 45);
+            this.label3.Location = new System.Drawing.Point(370, 87);
+            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(231, 35);
+            this.label3.Size = new System.Drawing.Size(462, 70);
             this.label3.TabIndex = 6;
             this.label3.Text = "企业人事管理系统";
             // 
@@ -121,9 +128,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Yellow;
-            this.label4.Location = new System.Drawing.Point(267, 82);
+            this.label4.Location = new System.Drawing.Point(534, 158);
+            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 16);
+            this.label4.Size = new System.Drawing.Size(130, 30);
             this.label4.TabIndex = 7;
             this.label4.Text = "Version 1.0";
             // 
@@ -132,20 +140,21 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label5.Location = new System.Drawing.Point(195, 417);
+            this.label5.Location = new System.Drawing.Point(390, 802);
+            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(206, 16);
+            this.label5.Size = new System.Drawing.Size(418, 30);
             this.label5.TabIndex = 8;
             this.label5.Text = "Designed and Developed by Clyne Shi";
             // 
             // F_Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(594, 446);
+            this.ClientSize = new System.Drawing.Size(1188, 858);
             this.ControlBox = false;
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -157,6 +166,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "F_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "企业人事管理系统";

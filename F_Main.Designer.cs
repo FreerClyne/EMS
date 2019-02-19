@@ -71,10 +71,10 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 44);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 46);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(2760, 1419);
+            this.pictureBox1.Size = new System.Drawing.Size(2760, 1417);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -94,7 +94,7 @@
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(12, 4, 0, 4);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(2760, 44);
+            this.menuStrip1.Size = new System.Drawing.Size(2760, 46);
             this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
@@ -107,7 +107,7 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.ShortcutKeyDisplayString = "";
             this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.A)));
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(206, 36);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(206, 38);
             this.toolStripMenuItem1.Text = "基础信息管理(&A)";
             // 
             // toolStripMenuItem2
@@ -129,63 +129,63 @@
             // Tool_Folk
             // 
             this.Tool_Folk.Name = "Tool_Folk";
-            this.Tool_Folk.Size = new System.Drawing.Size(289, 38);
+            this.Tool_Folk.Size = new System.Drawing.Size(324, 38);
             this.Tool_Folk.Text = "民族类别设置";
             this.Tool_Folk.Click += new System.EventHandler(this.Tool_Folk_Click);
             // 
             // Tool_EmployeeGenre
             // 
             this.Tool_EmployeeGenre.Name = "Tool_EmployeeGenre";
-            this.Tool_EmployeeGenre.Size = new System.Drawing.Size(289, 38);
+            this.Tool_EmployeeGenre.Size = new System.Drawing.Size(324, 38);
             this.Tool_EmployeeGenre.Text = "职工类别设置";
             this.Tool_EmployeeGenre.Click += new System.EventHandler(this.Tool_EmployeeGenre_Click);
             // 
             // Tool_Education
             // 
             this.Tool_Education.Name = "Tool_Education";
-            this.Tool_Education.Size = new System.Drawing.Size(289, 38);
+            this.Tool_Education.Size = new System.Drawing.Size(324, 38);
             this.Tool_Education.Text = "文化程度设置";
             this.Tool_Education.Click += new System.EventHandler(this.Tool_Culture_Click);
             // 
             // Tool_PoliticalStatus
             // 
             this.Tool_PoliticalStatus.Name = "Tool_PoliticalStatus";
-            this.Tool_PoliticalStatus.Size = new System.Drawing.Size(289, 38);
+            this.Tool_PoliticalStatus.Size = new System.Drawing.Size(324, 38);
             this.Tool_PoliticalStatus.Text = "政治面貌设置";
             this.Tool_PoliticalStatus.Click += new System.EventHandler(this.Tool_PoliticalStatus_Click);
             // 
             // Tool_Dept
             // 
             this.Tool_Dept.Name = "Tool_Dept";
-            this.Tool_Dept.Size = new System.Drawing.Size(289, 38);
+            this.Tool_Dept.Size = new System.Drawing.Size(324, 38);
             this.Tool_Dept.Text = "部门类别设置";
             this.Tool_Dept.Click += new System.EventHandler(this.Tool_Dept_Click);
             // 
             // Tool_Salary
             // 
             this.Tool_Salary.Name = "Tool_Salary";
-            this.Tool_Salary.Size = new System.Drawing.Size(289, 38);
+            this.Tool_Salary.Size = new System.Drawing.Size(324, 38);
             this.Tool_Salary.Text = "工资类别设置";
             this.Tool_Salary.Click += new System.EventHandler(this.Tool_Salary_Click);
             // 
             // Tool_Title
             // 
             this.Tool_Title.Name = "Tool_Title";
-            this.Tool_Title.Size = new System.Drawing.Size(289, 38);
+            this.Tool_Title.Size = new System.Drawing.Size(324, 38);
             this.Tool_Title.Text = "职务类别设置";
             this.Tool_Title.Click += new System.EventHandler(this.Tool_Title_Click);
             // 
             // Tool_RPKind
             // 
             this.Tool_RPKind.Name = "Tool_RPKind";
-            this.Tool_RPKind.Size = new System.Drawing.Size(289, 38);
+            this.Tool_RPKind.Size = new System.Drawing.Size(324, 38);
             this.Tool_RPKind.Text = "奖惩类别设置";
             this.Tool_RPKind.Click += new System.EventHandler(this.Tool_PRKind_Click);
             // 
             // Tool_WordPad
             // 
             this.Tool_WordPad.Name = "Tool_WordPad";
-            this.Tool_WordPad.Size = new System.Drawing.Size(289, 38);
+            this.Tool_WordPad.Size = new System.Drawing.Size(324, 38);
             this.Tool_WordPad.Text = "记事本类别设置";
             this.Tool_WordPad.Click += new System.EventHandler(this.Tool_WordPad_Click);
             // 
@@ -201,14 +201,14 @@
             // Tool_CrewBirthday
             // 
             this.Tool_CrewBirthday.Name = "Tool_CrewBirthday";
-            this.Tool_CrewBirthday.Size = new System.Drawing.Size(324, 38);
+            this.Tool_CrewBirthday.Size = new System.Drawing.Size(264, 38);
             this.Tool_CrewBirthday.Text = "员工生日提示";
             this.Tool_CrewBirthday.Click += new System.EventHandler(this.Tool_CrewBirthday_Click);
             // 
             // Tool_CrewContract
             // 
             this.Tool_CrewContract.Name = "Tool_CrewContract";
-            this.Tool_CrewContract.Size = new System.Drawing.Size(324, 38);
+            this.Tool_CrewContract.Size = new System.Drawing.Size(264, 38);
             this.Tool_CrewContract.Text = "员工合同提示";
             this.Tool_CrewContract.Click += new System.EventHandler(this.Tool_CrewContract_Click);
             // 
@@ -220,7 +220,7 @@
             this.Tool_CrewSum});
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.S)));
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(154, 36);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(154, 38);
             this.toolStripMenuItem4.Text = "人事管理(&S)";
             // 
             // Tool_CrewFile
@@ -251,7 +251,7 @@
             this.Tool_AddressBook});
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D)));
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(158, 36);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(158, 38);
             this.toolStripMenuItem5.Text = "备忘记录(&D)";
             // 
             // Tool_Log
@@ -275,7 +275,7 @@
             this.Tool_DataClear});
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F)));
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(178, 36);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(178, 38);
             this.toolStripMenuItem6.Text = "数据库维护(&F)";
             // 
             // Tool_DBBackup
@@ -300,7 +300,7 @@
             this.Tool_ShutDown});
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.G)));
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(107, 36);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(107, 38);
             this.toolStripMenuItem7.Text = "系统(&G)";
             // 
             // Tool_UserSetup
@@ -330,7 +330,7 @@
             this.Tool_Help});
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
             this.toolStripMenuItem8.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.H)));
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(108, 36);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(108, 38);
             this.toolStripMenuItem8.Text = "帮助(&H)";
             // 
             // Tool_Help

@@ -60,11 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataClass\MyMeans.cs" />
-    <Compile Include="db_EMSDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>db_EMSDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="F_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +89,11 @@
     </Compile>
     <Compile Include="InfoAddForm\F_EventPrompt.Designer.cs">
       <DependentUpon>F_EventPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lang\en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>en.resx</DependentUpon>
     </Compile>
     <Compile Include="ModuleClass\MyModule.cs" />
     <Compile Include="PerForm\F_AddressList.cs">
@@ -179,6 +179,10 @@
     <EmbeddedResource Include="InfoAddForm\F_EventPrompt.resx">
       <DependentUpon>F_EventPrompt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lang\en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="PerForm\F_AddressList.resx">
       <DependentUpon>F_AddressList.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,17 +222,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="db_EMSDataSet1.xsc">
-      <DependentUpon>db_EMSDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="db_EMSDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>db_EMSDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="db_EMSDataSet1.xss">
-      <DependentUpon>db_EMSDataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
